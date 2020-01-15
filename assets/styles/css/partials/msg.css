@@ -1,0 +1,30 @@
+.error {
+  width: 400px;
+  height: 20px;
+  background-color: #e65959;
+  color: #830505;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto; }
+
+.success {
+  width: 400px;
+  height: 20px;
+  background-color: #90fa86;
+  color: #00bb00;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto; }
+
+.warning {
+  width: 400px;
+  height: 20px;
+  background-color: #86affa;
+  color: #03163d;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  font-size: 14pt; }

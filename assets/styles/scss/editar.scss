@@ -1,0 +1,51 @@
+@import "partials/mixins";
+@import "partials/placeholders";
+@import "partials/variaveis";
+
+body{
+    background-color: rgb(37, 35, 35);
+}
+
+// formulario de edição
+.editar{
+    @include div(500px, 350px, white, 1px $border-black);
+    margin: auto;
+    margin-top: 10px;
+}
+
+.title{
+    text-align: center;
+    margin: {
+        top: 10px;
+        bottom: 20px;
+    };
+}
+
+hr{
+    margin-bottom: 10px;
+}
+
+.btn{
+    @extend %botoes;
+}
+
+label{
+    @include label(45px, 16pt, rgb(0, 0, 0));
+}
+
+input{
+    @extend %inputs;
+    font: {
+        size: 12pt;
+    };
+}
+
+#salvar-edicao{
+    @include btn(rgb(0, 19, 128), white, black);
+    box-shadow: 1px 1px 3px 3px black;
+    margin: {
+        top: 50px;
+        left: 200px;
+        bottom: 35px;
+    };
+}

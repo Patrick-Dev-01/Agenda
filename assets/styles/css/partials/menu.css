@@ -1,0 +1,53 @@
+a {
+  text-decoration: none; }
+
+* {
+  margin: 0; }
+
+.cabecalho {
+  background-color: black;
+  height: 50px; }
+
+.menu-lateral {
+  background-color: black;
+  position: absolute; }
+
+.user {
+  width: 250px;
+  height: 100px;
+  background-color: black;
+  border: none;
+  display: none;
+  margin: auto; }
+
+#img-user {
+  width: 70px;
+  height: 100px;
+  margin-left: 5px; }
+
+.username {
+  float: right;
+  color: white;
+  font-size: 14pt;
+  margin-top: 40px;
+  margin-right: 40px; }
+
+#menu {
+  list-style: none;
+  display: none; }
+  #menu .pages {
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+    text-align: left;
+    margin: 15px;
+    padding: 10px; }
+    #menu .pages:hover {
+      background-color: rgba(255, 255, 255, 0.425);
+      transition: 1s; }
+
+#options {
+  width: 40px;
+  height: 50px;
+  margin-left: 10px;
+  cursor: pointer; }

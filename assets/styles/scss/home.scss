@@ -1,0 +1,49 @@
+@import "partials/mixins";
+@import "partials/placeholders";
+@import "partials/variaveis";
+
+// tabela de contatos
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.title{
+    text-align: center;
+}
+
+.contatos{
+    @include div(95%, 510px, white, $border-black);
+    margin: auto;
+    overflow: auto;
+}
+
+.meus-contatos{
+    width: 900px;
+    height: 100px;
+    border: none;
+    margin: auto;
+    border-spacing: 0px;
+    padding: 5px;
+    background-color: white;
+}
+
+.col{
+    border: 1.5px $border-black;
+    text-align: center;
+    font: {
+        size: 12pt;
+    };
+    padding: 20px;
+    background-color: white;
+}
+
+#btn-editar{
+    @include btn-image("../../img/editar.png");
+    @extend %btn-image;
+}
+
+#btn-deletar{
+    @include btn-image("../../img/deletar.png");
+    @extend %btn-image;
+}

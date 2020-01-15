@@ -1,0 +1,38 @@
+@mixin div($width, $height, $color, $border){
+    width: $width;
+    height: $height;
+    background-color: $color;
+    border: $border;
+}
+
+@mixin label($margin-left, $size, $color){
+    margin-left: $margin-left;
+    font: {
+        size: $size;
+    };
+    color: $color; 
+}
+
+@mixin btn($background-color, $font-color, $border-color){
+    background-color: $background-color;
+    color: $font-color;
+    border: 1px solid $border-color;
+}
+
+// botoões que tem imagens
+@mixin btn-image($url){
+    background-image: url($url);
+}
+
+@mixin imagem($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin links($text-decoration, $font-color, $font-size){
+    text-decoration: $text-decoration;
+    color: $font-color;
+    font: {
+        size: $font-size;
+    };
+}

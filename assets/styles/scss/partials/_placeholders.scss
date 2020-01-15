@@ -1,0 +1,23 @@
+%inputs{
+    height: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+
+%botoes{
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+// botões com imagem
+%btn-image{
+    width: 25px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+}

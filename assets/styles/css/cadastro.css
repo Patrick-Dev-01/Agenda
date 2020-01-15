@@ -1,0 +1,55 @@
+input {
+  height: 20px;
+  margin: 10px;
+  padding: 5px; }
+
+.btn {
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  cursor: pointer; }
+
+body {
+  background-color: rgba(32, 30, 30, 0.856); }
+
+.title {
+  text-align: center;
+  color: white; }
+
+hr {
+  margin-bottom: 20px; }
+
+.cadastro {
+  width: 500px;
+  height: 450px;
+  background-color: #32265e;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 50px; }
+
+label {
+  margin-left: 45px;
+  font-size: 16pt;
+  color: white; }
+
+input {
+  font-size: 12pt; }
+
+#btn-cadastro {
+  background-color: green;
+  color: white;
+  border: 1px solid black;
+  box-shadow: 1px 1px 3px 3px black;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-bottom: 35px; }
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 12pt;
+  padding: 5px;
+  margin-left: 10px; }
+  .link:hover {
+    color: #8a8ae6;
+    border-bottom: 1px solid purple; }

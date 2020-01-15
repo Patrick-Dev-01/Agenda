@@ -1,0 +1,65 @@
+@import "partials/mixins";
+@import "partials/placeholders";
+@import "partials/variaveis";
+
+// formulário de cadastro
+
+body{
+    background-color: rgba(32, 30, 30, 0.856);
+}
+
+.btn{
+    @extend %botoes;
+}
+
+.title{
+    text-align: center;
+    color: white;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+.cadastro{
+    @include div(500px, 450px, rgb(50, 38, 94), 1px $border-black);
+    margin: auto;
+    margin: {
+        top: 50px;
+    };
+}
+
+label{
+    @include label(45px, 16pt, white);
+}
+
+input{
+    @extend %inputs;
+    font: {
+        size: 12pt;
+    };
+}
+
+#btn-cadastro{
+    @include btn(green, white, black);
+    box-shadow: 1px 1px 3px 3px black;
+    margin: {
+        top: 50px;
+        left: 200px;
+        bottom: 35px;
+    };
+}
+
+.link{
+    @include links(none, white, 12pt);
+    padding: 5px;
+    margin: {
+        left: 10px;
+    };
+
+    &:hover{
+        color: rgb(138, 138, 230);
+        border-bottom: 1px solid purple;
+    }
+}
+

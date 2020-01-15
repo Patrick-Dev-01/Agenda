@@ -1,0 +1,44 @@
+#btn-editar, #btn-deletar {
+  width: 25px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: none; }
+
+body {
+  background-color: black; }
+
+.title {
+  text-align: center; }
+
+.contatos {
+  width: 95%;
+  height: 510px;
+  background-color: white;
+  border: solid black;
+  margin: auto;
+  overflow: auto; }
+
+.meus-contatos {
+  width: 900px;
+  height: 100px;
+  border: none;
+  margin: auto;
+  border-spacing: 0px;
+  padding: 5px;
+  background-color: white; }
+
+.col {
+  border: 1.5px solid black;
+  text-align: center;
+  font-size: 12pt;
+  padding: 20px;
+  background-color: white; }
+
+#btn-editar {
+  background-image: url("../../img/editar.png"); }
+
+#btn-deletar {
+  background-image: url("../../img/deletar.png"); }
